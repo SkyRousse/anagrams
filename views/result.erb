@@ -1,0 +1,7 @@
+<h3>The verdict is........</h3>
+<% if @result == false %>
+<h4>@word_argument is not an anagram of @target_word</h4>
+<% end %>
+<% if @result == true %>
+<h4>@word_argument is an anagram of @target_word</h4>
+<% end %>
